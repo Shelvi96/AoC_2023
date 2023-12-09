@@ -32,7 +32,6 @@ def parse_input_graph() -> Map:
 
 def part_one(input_map: Map, starting_node: str, target_node: str) -> int:
 	current_node = starting_node
-	target_node = "ZZZ"
 	instruction_idx = 0
 	steps_count = 0
 	while current_node != target_node:
